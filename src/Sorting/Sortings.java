@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Sortings {
     public static void main(String[] args) {
 //        ArrayList<Integer> cars = new ArrayList<Integer>();
-        int []arr={5,3,4,1,2};
+        int []arr={7,5,1,9,12,45,2};
 //        insertion(arr);
 //        System.out.println(Arrays.toString(arr));
 
