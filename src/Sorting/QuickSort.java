@@ -19,6 +19,7 @@ public class QuickSort {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println();
+//        System.out.println(arr);
     }
 
     static void swap(List<Integer> arr,int i,int j){

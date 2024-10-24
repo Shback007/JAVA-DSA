@@ -26,7 +26,7 @@ public class Sortings {
 //            System.out.print(arr[i] + " ");
 //        }
 //        System.out.println();
-        mergeSort(arr,arr.length);
+        bubble(arr);
         System.out.println(Arrays.toString(arr));
 
 
