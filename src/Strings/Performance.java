@@ -9,5 +9,7 @@ public class Performance {
             series+=(char)('a'+i)+" ";
         }
         System.out.println(series);
+        System.out.println(Character.isUpperCase('A'));
     }
+
 }
