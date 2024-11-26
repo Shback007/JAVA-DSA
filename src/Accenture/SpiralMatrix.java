@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class SpiralMatrix {
     public static void main(String[] args) {
         int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16},{17,18,19,20}};
-        System.out.println(karleBhai(matrix,5,4));
+        System.out.println(karleBhai(matrix,matrix.length,matrix[0].length));
     }
     public static ArrayList<Integer> karleBhai(int[][] matrix,int n,int m){
         ArrayList<Integer> ans = new ArrayList<>(m*n);

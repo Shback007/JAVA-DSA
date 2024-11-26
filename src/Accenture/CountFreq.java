@@ -38,8 +38,11 @@ public class CountFreq {
 
         // Build the compressed string
         StringBuilder compressed = new StringBuilder();
-        for (char ch : frequencyMap.keySet()) {
-            compressed.append(ch).append(frequencyMap.get(ch));
+//        for (char ch : frequencyMap.keySet()) {
+//            compressed.append(ch).append(frequencyMap.get(ch));
+//        }
+        for(Map.Entry<Character,Integer> entry :frequencyMap.entrySet()){
+            compressed.append(entry.getKey()).append(entry.getValue());
         }
 
         return compressed.toString();
